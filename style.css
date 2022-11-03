@@ -1,0 +1,24 @@
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  justify-content: center; 
+  align-items: center;
+}
+
+.box div {
+  background-color: lightgreen;
+  border: solid green 1px;
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+
+}
+
+div {
+  vertical-align: middle;
+}
